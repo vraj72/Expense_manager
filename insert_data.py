@@ -1,5 +1,5 @@
 import mysql.connector as con
-mycon=con.connect(host="localhost",user="viraj",passwd="qwerty",database="Expense_manager")
+mycon=con.connect(host="localhost",user="*****",passwd="******",database="Expense_manager")
 mycur=mycon.cursor()
 
 class insert_data():
